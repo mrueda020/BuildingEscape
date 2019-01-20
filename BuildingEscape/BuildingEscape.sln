@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.25807.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{0A72A1C4-7334-4085-87C7-E3C8E16789F6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{7B497D86-29AE-44B1-B544-9E9C4FEAA159}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{AF61D5A2-F802-41E3-BA90-DD9B92093DCE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{60DA5F0E-7C38-4F70-8D7E-222C9A4C359E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{665C6629-36AB-43CF-82A4-C33B582FC83A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BuildingEscape", "Intermediate\ProjectFiles\BuildingEscape.vcxproj", "{58D1F4AC-3532-41F1-A86F-777231302208}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{3FC4F6ED-EEA3-4B81-B09D-E6D3802160F2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{B0C521C3-8CD7-422A-A555-256351945ADD}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\..\Program Files\Epic Games\UE_4.21\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\..\..\..\Program Files\Epic Games\UE_4.21\Engine\Extras\VisualStudioDebugging\UE4.natvis
+		..\..\..\..\..\..\Program Files\Epic Games\UE_4.21\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\..\..\..\..\Program Files\Epic Games\UE_4.21\Engine\Extras\VisualStudioDebugging\UE4.natvis
 	EndProjectSection
 EndProject
 Global
@@ -81,7 +81,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{665C6629-36AB-43CF-82A4-C33B582FC83A} = {0A72A1C4-7334-4085-87C7-E3C8E16789F6}
-		{58D1F4AC-3532-41F1-A86F-777231302208} = {AF61D5A2-F802-41E3-BA90-DD9B92093DCE}
+		{665C6629-36AB-43CF-82A4-C33B582FC83A} = {7B497D86-29AE-44B1-B544-9E9C4FEAA159}
+		{58D1F4AC-3532-41F1-A86F-777231302208} = {60DA5F0E-7C38-4F70-8D7E-222C9A4C359E}
 	EndGlobalSection
 EndGlobal
