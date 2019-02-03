@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-
 #include "Engine/TriggerVolume.h"
 #include "OpenDoor.generated.h"
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -26,11 +25,18 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 private:
-	UPROPERTY(VisibleAnywhere)
+	AActor *ActorThatOpens;
+	AActor *Owner;
+	float LastDoorOpenTime;
+
+	UPROPERTY(EditAnywhere)
 		float OpenAngle = 90.0f;
+	UPROPERTY(EditAnywhere)
+		float CloseAngle = 0.0f;	
+	UPROPERTY(EditAnywhere)
+		float DoorCloseDelay  = 0.5f;
 	UPROPERTY(EditAnywhere)
 		ATriggerVolume * PreassurePlate;
 	
-		AActor *ActorThatOpens;
-
+		
 };
