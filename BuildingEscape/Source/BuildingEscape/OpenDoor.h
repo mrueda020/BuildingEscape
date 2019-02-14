@@ -26,8 +26,8 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	
 private:
-	AActor *ActorThatOpens;
-	AActor *Owner; //The owning door
+	// AActor *ActorThatOpens = nullptr;
+	AActor *Owner = nullptr; //The owning door
 	float LastDoorOpenTime;
 	UPROPERTY(EditAnywhere)
 		float OpenAngle = 90.0f;
