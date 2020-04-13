@@ -40,7 +40,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// Poll the Trigger Volume
-	if (GetTotalMassOfActorsOnPlate() > TriggerMass)
+	if (GetTotalMassOfActorsOnPlate() >= TriggerMass)
 	{
 		OnOpen.Broadcast();
 	}
