@@ -8,7 +8,7 @@ public class BuildingEscape : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore","ApplicationCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore","ApplicationCore","AIModule" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

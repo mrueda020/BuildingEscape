@@ -14,4 +14,14 @@ class BUILDINGESCAPE_API ABuildingEscapeGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
+
+	void OnEscapeComplete(APawn* InstigatorPawn, bool bEscapeComplete);
+
+protected:
+
+	UPROPERTY(EditDefaultsOnly, Category = "Spectator")
+	TSubclassOf<AActor> SpectatorViewpointClass;
+
+
 };
